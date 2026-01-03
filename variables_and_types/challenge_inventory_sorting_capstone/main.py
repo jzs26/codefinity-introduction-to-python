@@ -16,4 +16,4 @@ pasta_price = "$5.40"
 #"We have dairy and bakery items: " + dairy1 + ", " + dairy2 + ", and " + bakery1 + " in aisle 5"
 print(f"We have {candy1} for {bubblegum_price} in the {category1}")
 print(f"We have {candy2} for {chocolate_price} in the {category1}")
-print(f"We have {dry_goods} for {pasta_price} in the {category1}")
+print(f"We have {dry_goods} for {pasta_price} in the {category2}")

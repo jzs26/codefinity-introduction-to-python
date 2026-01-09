@@ -1,0 +1,12 @@
+from typing import List
+
+class Solution(object):
+    def solve(self, n:int, bill_levels: List[int], bob_levels: List[int]) -> str:
+        print(f"n: {n}, bill_levels: {bill_levels} bob_levels: {bob_levels}")
+        both_levels = (set(bill_levels + bob_levels))
+        required_levels = set(range(1, n+1))
+        if both_levels.issuperset(required_levels):
+            return ("I become the hero!")
+        else: 
+            return ("Oh, no! The castle is locked!")
+        return solve

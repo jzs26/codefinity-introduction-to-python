@@ -1,0 +1,11 @@
+class Solution(object):
+    def solve(self,a,b):
+        print(f"a: {a}, b: {b}")
+        Bill_weight = a
+        Bob_weight = b
+        years = 0
+        while Bill_weight <= Bob_weight:
+            Bill_weight *= 3
+            Bob_weight *= 2
+            years += 1
+        return years

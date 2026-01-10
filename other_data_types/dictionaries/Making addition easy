@@ -1,0 +1,11 @@
+class Solution(object):
+    def solve(self, s:str) -> str:
+        print(f"s: {s}")
+        parts = s.split("+")
+        sorted_parts = sorted(parts)
+        result = "+" .join(sorted_parts)
+        return result
+
+sol = Solution()
+output = sol.solve("3+2+2+1")
+print(output)

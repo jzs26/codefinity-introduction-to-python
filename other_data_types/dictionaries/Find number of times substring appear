@@ -1,0 +1,5 @@
+#Exercise 7: Find the number of occurrences of a substring in a string
+str_x = "Emma is good developer. Emma is a writer"
+count_time = str_x.count("Emma")
+if "Emma" in str_x:
+    print(f"Emma appearred {count_time} times.")

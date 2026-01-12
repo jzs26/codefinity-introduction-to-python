@@ -1,0 +1,10 @@
+#Exercise 4: Remove first n characters from a string
+
+def remove_chars(word, n):
+    x = word[n:]
+    return x
+
+
+print("removed first n chars:")
+print(remove_chars("congratulations", 4))
+print(remove_chars("congratulations", 2))

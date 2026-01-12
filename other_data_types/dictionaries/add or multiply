@@ -1,0 +1,23 @@
+#multiple or add
+
+def multiplication_or_sum(num1, num2):
+    product = num1 * num2
+    if product <=1000:
+        return product
+    else:
+        return num1 + num2
+    
+result = multiplication_or_sum(20, 30)
+#print("The result is", result)
+
+result = multiplication_or_sum(40, 30)
+#print("The result is", result)
+
+#printing current and previous number sum in range(10)
+
+def current_previous_num(num):
+    for num in range(10):
+        sum = num + num -1
+    return sum
+returned_sum = current_previous_num(10)
+#print(returned_sum)

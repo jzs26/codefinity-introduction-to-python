@@ -1,0 +1,8 @@
+#Exercise 5: Check if the first and last numbers of a list are the same
+def check_value(number_list):
+    if number_list[0] == number_list[-1]:
+        return True
+    else:
+        return False
+number_list = [10, 11, 45, 45, 10]
+print("First last is the same:", check_value(number_list))

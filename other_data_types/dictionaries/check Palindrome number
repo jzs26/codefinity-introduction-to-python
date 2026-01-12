@@ -1,0 +1,16 @@
+#Exercise 9: Check Palindrome Number
+
+def Palindrome_num(num):
+    if num < 0:
+        print("No, the original number is not a Palindrome number")
+    else:
+        num_str = str(num)
+        num_str == num_str[::-1]
+        print("Yes, the originnal number is a Palindrome number")
+     
+
+        
+
+Palindrome_num(456)
+Palindrome_num(-313)
+Palindrome_num(765567)

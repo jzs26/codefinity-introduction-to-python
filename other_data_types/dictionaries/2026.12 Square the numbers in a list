@@ -1,0 +1,12 @@
+#Turn every item of a list into its square 
+
+numbers = [1, 2, 3, 4, 5, 6, 7]
+square_numbers = []
+for num in numbers:
+    square_numbers.append(num * num)
+#print(square_numbers)
+
+#alternative code
+numbers = [1, 2, 3, 4, 5, 6, 7]
+square_numbers = [x * x for x in numbers]
+print(square_numbers)

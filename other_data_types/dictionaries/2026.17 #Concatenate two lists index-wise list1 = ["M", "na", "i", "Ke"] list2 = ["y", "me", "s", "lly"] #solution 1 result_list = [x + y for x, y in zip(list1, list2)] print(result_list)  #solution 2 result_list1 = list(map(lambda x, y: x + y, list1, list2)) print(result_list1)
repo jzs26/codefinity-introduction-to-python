@@ -1,0 +1,10 @@
+#Concatenate two lists index-wise
+list1 = ["M", "na", "i", "Ke"]
+list2 = ["y", "me", "s", "lly"]
+#solution 1
+result_list = [x + y for x, y in zip(list1, list2)]
+print(result_list)
+
+#solution 2
+result_list1 = list(map(lambda x, y: x + y, list1, list2))
+print(result_list1)

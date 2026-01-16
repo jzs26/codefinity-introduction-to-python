@@ -1,0 +1,11 @@
+#Generate Fibonacci series up to 15 terms
+number1 = 0
+number2 = 1
+print("Fibonacci sequence:")
+for i in range(15):
+    print(number1, end = " ")
+    result = number1 + number2
+
+
+    number1 = number2
+    number2 = result
